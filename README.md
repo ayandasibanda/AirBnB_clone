@@ -11,10 +11,11 @@ The command interpreter relies on a parent class called BaseModel. This class is
 Serialization/Deserialization Flow
 The serialization/deserialization process involves the following steps:
 
-Instance creation
-Conversion to a dictionary
-Transformation to a JSON string
-Storage in a file
+1. Instance creation
+2. Conversion to a dictionary
+3. Transformation to a JSON string
+4. Storage in a file
+
 This flow ensures that object data can be easily saved, retrieved, and manipulated throughout the project.
 
 Classes
