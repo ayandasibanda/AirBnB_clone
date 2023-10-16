@@ -1,19 +1,14 @@
 #!/usr/bin/python3
-'''Module defining the City class, inheriting from BaseModel'''
-
+'''class inherent of BaseModel'''
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    '''City class for the application'''
+    '''class city'''
 
-    state_id = ""  # State ID associated with the city
-    name = ""      # Name of the city
+    state_id = ""
+    name = ""
 
     def __init__(self, *args, **kwargs):
-        """Initializes a City instance"""
-
+        """initializes City"""
         super().__init__(*args, **kwargs)
-        # Call the constructor of the parent class (BaseModel)
-        # to initialize common attributes such as id, created_at, and updated_at
-

@@ -1,18 +1,13 @@
 #!/usr/bin/python3
-'''Module defining the State class, inheriting from BaseModel'''
-
+'''class inherent of BaseModel'''
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    '''State class for the application'''
+    '''class State'''
 
-    name = ""   # Name of the state
+    name = ""
 
     def __init__(self, *args, **kwargs):
-        """Initializes a State instance"""
-
+        """initializes State"""
         super().__init__(*args, **kwargs)
-        # Call the constructor of the parent class (BaseModel)
-        # to initialize common attributes such as id, created_at, and updated_at
-

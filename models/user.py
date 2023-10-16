@@ -11,4 +11,3 @@ class User(BaseModel):
     password = ""     # Password associated with the user's account
     first_name = ""    # First name of the user
     last_name = ""     # Last name of the user
-

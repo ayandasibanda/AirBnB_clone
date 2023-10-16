@@ -13,4 +13,3 @@ from models.engine.file_storage import FileStorage
 storage = FileStorage()
 # Load existing data from the storage file
 storage.reload()
-

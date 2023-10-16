@@ -24,4 +24,3 @@ class TestConsole(unittest.TestCase):
         console_instance = self.create()
         # Attempt to execute the 'EOF' command and assert the return value
         self.assertTrue(console_instance.onecmd("EOF"))
-

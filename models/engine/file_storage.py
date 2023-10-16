@@ -10,6 +10,7 @@ from models.place import Place
 from models.review import Review
 from models.state import State
 
+
 class FileStorage:
     """
     FileStorage class for managing serialization and deserialization of objects
@@ -27,7 +28,7 @@ class FileStorage:
     def new(self, obj):
         """
         Adds a new object to __objects with the key format <obj class name>.id.
-        
+
         Parameters:
         obj (BaseModel): The object to be added.
         """
@@ -60,4 +61,3 @@ class FileStorage:
 
         except FileNotFoundError:
             pass
-

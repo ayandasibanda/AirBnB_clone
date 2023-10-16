@@ -68,7 +68,7 @@ class TestBaseModel(unittest.TestCase):
             "updated_at": datetime.datetime,
             "id": str,
             "created_at": datetime.datetime
-            }
+        }
         for key, value in model_types.items():
             with self.subTest(key=key, value=value):
                 self.assertIn(key, second_model.__dict__)
@@ -121,4 +121,3 @@ class TestBaseModel(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
