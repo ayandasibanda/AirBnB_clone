@@ -1,5 +1,7 @@
 AirBnB Clone Project
+
 Project Description
+
 Welcome to the AirBnB clone project! This project aims to create a simplified version of the popular AirBnB platform. The development will be carried out in several steps, starting with the implementation of a command-line interpreter to manage AirBnB objects. This command interpreter will serve as the foundation for subsequent tasks, including HTML/CSS templating, database storage, API integration, and front-end development.
 
 Command Interpreter
